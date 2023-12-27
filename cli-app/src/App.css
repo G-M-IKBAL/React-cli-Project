@@ -1,0 +1,53 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  background-color: #1e1e1e;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto; /* Add this line to enable vertical scrolling */
+
+  
+}
+
+.terminal {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: #252526; /* Slightly lighter than app background for contrast */
+  border-radius: 0; /* Full screen typically does not have border radius */
+  box-shadow: none; /* Full screen typically does not have a box shadow */
+  overflow: hidden; /* To ensure the border-radius applies to child elements */
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  
+
+}
+
+
+.terminal-header {
+  width: 100%; /* Full width */
+  background-color: #007acc; /* Blue header */
+  color: #ffffff;
+  padding: 10px 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.terminal-body {
+  flex-grow: 1; /* Takes up the remaining space */
+  overflow-y: auto; /* Allows scrolling */
+}
+
+.terminal input {
+  width: 100%; /* Full width of its container */
+  background: none;
+  border: none;
+  color: #ef0c0cf3; /* Light grey text */
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  overflow-y: auto;
+}

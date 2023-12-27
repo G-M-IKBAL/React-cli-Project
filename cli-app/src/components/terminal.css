@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  font-family: 'Fira Code', monospace;
+  
+}
+
+.terminal {
+
+  height: 100vh; /* Use the full height of the viewport */
+  width: 100vw; /* Use the full width of the viewport */
+
+  background-image: url('../kali.png'); 
+  background-size: cover; /* Cover the full viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  
+  color: #ee2525; /* Update the text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.terminal-header {
+  margin-top: -1cm;
+  text-align: center; /* Center the heading text */
+  background-color: #323130c3;
+  color: #ea1b1b81; /* Blue color for the header text */
+  padding: 0px;
+  /* font-size: 1em; */
+  line-height: 1.2;
+  /* border-bottom: 3px solid #ffffffc9; */
+
+}
+
+.terminal-body {
+
+  flex-grow: 1; /* Grow to use available space */
+  overflow-y: auto;
+  
+  
+}
+.terminal-line {
+
+  margin-top: 5px;
+  text-align: left; /* Ensure the text is aligned left */
+  color: #20e320; /* A different color for the body text */
+}
+
+.terminal-input-line {
+  
+  display: flex;
+  align-items: center;
+}
+
+.terminal-prompt {
+  color: #ff0000; /* A lighter green color for the prompt */
+  margin-right: 5px;
+}
