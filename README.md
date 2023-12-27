@@ -1,7 +1,6 @@
 # Full-Stack-Recruitment-Challenge
 # CLI-App built by G-M-IQBAL 
 
-# Recruitment Challenge 
 
 ## Description
 This CLI-App is a robust and efficient command-line interface application, with a frontend built using React.js and a backend developed in TypeScript.
