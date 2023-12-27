@@ -24,6 +24,8 @@ npm install
 #### Backend Setup
 Navigate to the backend directory:
 
+npm i
+
 Install TypeScript and necessary types:
 npm install @types/node @types/express --save-dev
 
